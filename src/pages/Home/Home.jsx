@@ -1,11 +1,24 @@
 import React from 'react';
-import Galaxy from '../../assets/Galaxy/Galaxy';
+import Animation from '../../component/Animation/Animation';
+import Hero from '../../component/Hero/Hero';
+import About from '../../component/About/About';
+import Skills from '../../component/Skills/Skills';
+import Projects from '../../component/Projects/Projects';
+import Contact from '../../component/Contact/Contact';
 
 const Home = () => {
     return (
-        <div style={{ width: '100%', height: '600px', position: 'relative' }}>
-            <Galaxy></Galaxy>
+
+        <div>
+            <Animation>
+                <Hero></Hero>
+                <About></About>
+                <Skills></Skills>
+                <Projects></Projects>
+                <Contact></Contact>
+            </Animation>
         </div>
+
     );
 };
 
