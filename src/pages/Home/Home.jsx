@@ -10,13 +10,15 @@ const Home = () => {
     return (
 
         <div>
-            <Animation>
-                <Hero></Hero>
-                <About></About>
-                <Skills></Skills>
-                <Projects></Projects>
-                <Contact></Contact>
-            </Animation>
+
+            <Hero></Hero>
+            <About></About>
+            <Skills></Skills>
+            <Projects></Projects>
+            <Contact></Contact>
+            {/* <Animation>
+
+            </Animation> */}
         </div>
 
     );
