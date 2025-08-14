@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import projectsData from "../Projects/projects.json";
 import Galaxy from "../../assets/Galaxy/Galaxy";
 import { useParams } from "react-router";
@@ -6,6 +6,10 @@ import { useParams } from "react-router";
 const ProjectDetails = () => {
     const { id } = useParams();
     const project = projectsData.find((p) => p.id === parseInt(id));
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     if (!project) {
         return (
