@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebook, FaArrowDown } from "react-icons/fa";
 import myImage from "../../assets/Images/my-img4.png"; 
 import Galaxy from "../../assets/Galaxy/Galaxy";
 
@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-start gap-4">
             <button className="btn btn-primary px-6">Hire Me</button>
             <button className="btn btn-outline px-6 text-white border-white hover:border-primary hover:text-primary">
-              View Portfolio
+              <FaArrowDown />Resume
             </button>
           </div>
         </div>
