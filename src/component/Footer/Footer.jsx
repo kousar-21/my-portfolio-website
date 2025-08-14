@@ -5,7 +5,7 @@ import img from '../../assets/Images/portfolio-Logo.png'
 const Footer = () => {
     return (
         <div>
-            <footer className="bg-gray-800 text-white">
+            <div className="bg-gray-800 text-white">
                 <div className="mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 border-t border-gray-700 py-4">
 
                     {/* Left - Image, Name & Role */}
@@ -54,7 +54,7 @@ const Footer = () => {
                         © {new Date().getFullYear()} Kousar Ahammed. All Rights Reserved.
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
     );
 };

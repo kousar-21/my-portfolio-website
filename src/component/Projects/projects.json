@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Online Tutor Booking Platform",
+    "image": "/images/tutor.jpg",
+    "stack": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "description": "A platform where students can find, review, and book tutors for various subjects and languages.",
+    "liveLink": "https://tutor-platform.example.com",
+    "githubClient": "https://github.com/yourusername/tutor-client",
+    "challenges": "Implementing real-time booking calendar and handling timezone differences.",
+    "futurePlans": "Add AI tutor recommendations and support video conferencing."
+  },
+  {
+    "id": 2,
+    "name": "Scholarship Management System",
+    "image": "/images/scholarship.jpg",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "description": "A complete solution for managing scholarships, applications, and reviews.",
+    "liveLink": "https://scholarship-system.example.com",
+    "githubClient": "https://github.com/yourusername/scholarship-client",
+    "challenges": "Integrating secure payment gateway and role-based access control.",
+    "futurePlans": "Add AI-based scholarship matching and multi-language support."
+  },
+  {
+    "id": 3,
+    "name": "Parcel Delivery Website",
+    "image": "/images/parcel.jpg",
+    "stack": ["React", "Firebase", "Leaflet.js", "TailwindCSS"],
+    "description": "A delivery service platform with district coverage map and real-time tracking.",
+    "liveLink": "https://parcel-delivery.example.com",
+    "githubClient": "https://github.com/yourusername/parcel-client",
+    "challenges": "Map rendering optimization and dynamic coverage area display.",
+    "futurePlans": "Implement live driver location tracking and delivery status notifications."
+  }
+]

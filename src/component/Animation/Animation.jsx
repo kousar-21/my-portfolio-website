@@ -3,9 +3,9 @@ import Galaxy from '../../assets/Galaxy/Galaxy';
 
 const Animation = ({ children }) => {
     return (
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative"}}>
             {/* Background Animation */}
-            <div className='bg-gray-700' style={{ position: "absolute", inset: 0, zIndex: -1, height: "100%" }}>
+            <div className='bg-gray-700' style={{ position: "absolute", inset: 0, zIndex: -1 }}>
                 <Galaxy></Galaxy>
             </div>
 

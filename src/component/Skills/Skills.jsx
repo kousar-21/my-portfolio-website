@@ -21,40 +21,42 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section className="relative bg-gray-800 text-white py-16">
-            {/* Galaxy Background */}
-            <div className="absolute inset-0 z-0">
-                <Galaxy />
-            </div>
-
-            {/* Content */}
-            <div className="relative z-10 container mx-auto px-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                    My <span className="text-primary">Skills</span>
-                </h2>
-
-                {/* Skills Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-                    {skills.map((skill, index) => (
-                        <div
-                            key={index}
-                            className="group flex flex-col items-center text-center p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary hover:scale-105 transition-all duration-300 shadow-lg"
-                        >
-                            {/* Icon container */}
-                            <div className="w-20 h-20 flex items-center justify-center rounded-full bg-white/10 border border-white/20 mb-4 group-hover:bg-primary/20 transition-all duration-300">
-                                <span className={`text-5xl ${skill.color}`}>{skill.icon}</span>
-                            </div>
-
-                            {/* Name */}
-                            <h3 className="text-lg font-semibold mb-1">{skill.name}</h3>
-
-                            {/* Glow underline */}
-                            <div className="w-10 h-1 bg-primary rounded-full group-hover:w-16 transition-all duration-300"></div>
-                        </div>
-                    ))}
+        <div>
+            <section className="relative bg-gray-800 text-white py-16">
+                {/* Galaxy Background */}
+                <div className="absolute inset-0 z-0">
+                    <Galaxy />
                 </div>
-            </div>
-        </section>
+
+                {/* Content */}
+                <div className="relative z-10 container mx-auto px-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+                        My <span className="text-primary">Skills</span>
+                    </h2>
+
+                    {/* Skills Grid */}
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+                        {skills.map((skill, index) => (
+                            <div
+                                key={index}
+                                className="group flex flex-col items-center text-center p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary hover:scale-105 transition-all duration-300 shadow-lg"
+                            >
+                                {/* Icon container */}
+                                <div className="w-20 h-20 flex items-center justify-center rounded-full bg-white/10 border border-white/20 mb-4 group-hover:bg-primary/20 transition-all duration-300">
+                                    <span className={`text-5xl ${skill.color}`}>{skill.icon}</span>
+                                </div>
+
+                                {/* Name */}
+                                <h3 className="text-lg font-semibold mb-1">{skill.name}</h3>
+
+                                {/* Glow underline */}
+                                <div className="w-10 h-1 bg-primary rounded-full group-hover:w-16 transition-all duration-300"></div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+        </div>
     );
 };
 
