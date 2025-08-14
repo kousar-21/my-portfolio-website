@@ -7,7 +7,7 @@ import Galaxy from "../../assets/Galaxy/Galaxy";
 const Hero = () => {
   return (
     <div>
-      <section className="relative bg-gray-800 text-white overflow-hidden min-h-[calc(100vh-80px)]">
+      <section className="relative bg-gray-800 text-white overflow-hidden lg:min-h-[calc(100vh-80px)]">
         {/* Galaxy Animation */}
         <div className="absolute inset-0 z-0">
           <Galaxy />

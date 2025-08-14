@@ -30,7 +30,7 @@ const Contact = () => {
 
     return (
         <div id="Contacts">
-            <section className="relative bg-gray-800 text-white py-16 min-h-[calc(100vh-80px)]">
+            <section className="relative bg-gray-800 text-white py-16 lg:min-h-[calc(100vh-80px)]">
                 {/* Galaxy background */}
                 <div className="absolute inset-0 z-0">
                     <Galaxy />

@@ -5,7 +5,7 @@ import myProfile from '../../assets/Images/my-profile.jpg'
 const About = () => {
     return (
         <div id="About">
-            <div className="relative bg-gray-700 py-16 text-white min-h-[calc(100vh-80px)]">
+            <div className="relative bg-gray-700 py-16 text-white lg:min-h-[calc(100vh-80px)]">
                 {/* Galaxy Animation Background */}
                 <div className="absolute inset-0 -z-10">
                     <Galaxy />
