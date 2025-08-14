@@ -7,10 +7,9 @@ import Projects from '../../component/Projects/Projects';
 import Contact from '../../component/Contact/Contact';
 
 const Home = () => {
+    
     return (
-
         <div>
-
             <Hero></Hero>
             <About></About>
             <Skills></Skills>
@@ -20,7 +19,6 @@ const Home = () => {
 
             </Animation> */}
         </div>
-
     );
 };
 

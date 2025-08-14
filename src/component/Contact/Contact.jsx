@@ -29,8 +29,8 @@ const Contact = () => {
     };
 
     return (
-        <div>
-            <section className="relative bg-gray-800 text-white py-16">
+        <div id="Contacts">
+            <section className="relative bg-gray-800 text-white py-16 min-h-[calc(100vh-80px)]">
                 {/* Galaxy background */}
                 <div className="absolute inset-0 z-0">
                     <Galaxy />
@@ -53,7 +53,7 @@ const Contact = () => {
 
                             <div className="space-y-2">
                                 <p className="flex items-center justify-center md:justify-start gap-2">
-                                    <FaEnvelope className="text-green-400" /> kousar21ahammed@gmail.com
+                                    <FaEnvelope className="text-green-400" /> kousarahammed5@gmail.com
                                 </p>
                                 <p className="flex items-center justify-center md:justify-start gap-2">
                                     <FaWhatsapp className="text-green-400" /> +8801521514220
@@ -63,7 +63,7 @@ const Contact = () => {
                             {/* Social Links */}
                             <div className="flex justify-center md:justify-start gap-4 mt-4">
                                 <a
-                                    href="https://facebook.com"
+                                    href="https://www.facebook.com/kousar.ahammed.eshan"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="p-3 bg-gray-700 rounded-full hover:bg-green-500 transition-colors"
@@ -71,7 +71,7 @@ const Contact = () => {
                                     <FaFacebookF />
                                 </a>
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/in/md-kousar21/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="p-3 bg-gray-700 rounded-full hover:bg-green-500 transition-colors"
@@ -79,7 +79,7 @@ const Contact = () => {
                                     <FaLinkedinIn />
                                 </a>
                                 <a
-                                    href="https://github.com"
+                                    href="https://github.com/kousar-21"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="p-3 bg-gray-700 rounded-full hover:bg-green-500 transition-colors"

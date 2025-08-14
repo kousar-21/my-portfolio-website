@@ -10,8 +10,8 @@ const Projects = () => {
     }, []);
 
     return (
-        <div>
-            <section className="py-16 relative">
+        <div id="Projects">
+            <section className="py-16 relative min-h-[calc(100vh-80px)]">
                 {/* Galaxy Animation */}
                 <div className="absolute inset-0 -z-10 bg-black">
                     <div className="galaxy-animation"></div>

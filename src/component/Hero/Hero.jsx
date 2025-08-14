@@ -7,7 +7,7 @@ import Galaxy from "../../assets/Galaxy/Galaxy";
 const Hero = () => {
   return (
     <div>
-      <section className="relative bg-gray-800 text-white overflow-hidden">
+      <section className="relative bg-gray-800 text-white overflow-hidden min-h-[calc(100vh-80px)]">
         {/* Galaxy Animation */}
         <div className="absolute inset-0 z-0">
           <Galaxy />
@@ -22,18 +22,18 @@ const Hero = () => {
               Hi, I’m <span className="text-primary">Kousar Ahammed</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
-              MERN Stack Developer
+              Frontend Developer
             </h2>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-lg mx-auto md:mx-0">
               Passionate about crafting modern web applications with clean code
               and innovative designs. I specialize in building fast, secure, and
-              scalable web solutions using the MERN stack.
+              scalable web solutions using the Frontend.
             </p>
 
             {/* Social Links */}
             <div className="flex justify-center md:justify-start gap-4 mb-8 text-2xl">
               <a
-                href="https://www.linkedin.com/in/kousar-ahammed"
+                href="https://www.linkedin.com/in/md-kousar21/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-primary transition-colors"
@@ -41,7 +41,7 @@ const Hero = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/kousar-21"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-primary transition-colors"
@@ -49,7 +49,7 @@ const Hero = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://facebook.com/"
+                href="https://www.facebook.com/kousar.ahammed.eshan"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-primary transition-colors"

@@ -17,14 +17,14 @@ const Footer = () => {
                         />
                         <div>
                             <h3 className="text-xl font-semibold">Kousar Ahammed</h3>
-                            <p className="text-gray-400 text-sm">MERN Stack Developer</p>
+                            <p className="text-gray-400 text-sm">Frontend Developer</p>
                         </div>
                     </div>
 
                     {/* Middle - Social Links */}
                     <div className="flex gap-6 text-2xl">
                         <a
-                            href="https://www.linkedin.com/in/kousar-ahammed"
+                            href="https://www.linkedin.com/in/md-kousar21/"
                             target="_blank"
                             rel="noreferrer"
                             className="hover:text-primary transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
                             <FaLinkedin />
                         </a>
                         <a
-                            href="https://github.com/"
+                            href="https://github.com/kousar-21"
                             target="_blank"
                             rel="noreferrer"
                             className="hover:text-primary transition-colors"
@@ -40,7 +40,7 @@ const Footer = () => {
                             <FaGithub />
                         </a>
                         <a
-                            href="https://facebook.com/"
+                            href="https://www.facebook.com/kousar.ahammed.eshan"
                             target="_blank"
                             rel="noreferrer"
                             className="hover:text-primary transition-colors"

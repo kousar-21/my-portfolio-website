@@ -4,8 +4,8 @@ import myProfile from '../../assets/Images/my-profile.jpg'
 
 const About = () => {
     return (
-        <div>
-            <div className="relative bg-gray-700 py-16 text-white">
+        <div id="About">
+            <div className="relative bg-gray-700 py-16 text-white min-h-[calc(100vh-80px)]">
                 {/* Galaxy Animation Background */}
                 <div className="absolute inset-0 -z-10">
                     <Galaxy />
@@ -26,7 +26,7 @@ const About = () => {
                         <h2 className="text-4xl font-bold mb-4">About Me</h2>
                         <p className="text-gray-300 leading-relaxed mb-4">
                             Hello! I'm <span className="text-purple-400 font-semibold">Kousar Ahammed</span>, a passionate
-                            <span className="text-purple-400"> MERN Stack Developer</span> with a strong love for
+                            <span className="text-purple-400"> Frontend Developer</span> with a strong love for
                             creating beautiful and functional web applications. My programming journey started from a
                             deep curiosity about how websites work, which turned into a full-time passion.
                         </p>

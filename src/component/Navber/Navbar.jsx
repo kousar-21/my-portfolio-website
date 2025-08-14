@@ -1,17 +1,37 @@
 import React from 'react';
 import Logo from '../Logo/Logo';
+import { Link } from 'react-scroll';
+import { NavLink, useLocation, useNavigate } from 'react-router';
 
 const Navbar = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const handleHomeClick = () => {
+        if (location.pathname === "/") {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+            navigate("/");
+        }
+    };
     const links = <>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contacts</li>
+        <li><button onClick={handleHomeClick}>Home</button></li>
+        <li><Link to="About" smooth={true} duration={500} offset={-70}>
+            About
+        </Link></li>
+        <li><Link to="Skills" smooth={true} duration={500} offset={-70}>
+            Skills
+        </Link></li>
+        <li><Link to="Projects" smooth={true} duration={500} offset={-70}>
+            Projects
+        </Link></li>
+        <li><Link to="Contacts" smooth={true} duration={500} offset={-70}>
+            Contacts
+        </Link></li>
     </>
     return (
-        <div>
-            <div className="navbar bg-gray-800 text-white shadow-2xl">
+        <div id='Home'>
+            <div className="navbar bg-gray-800 text-white shadow-2xl px-6">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
